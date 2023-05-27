@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./style.css"
 
-function App() {
+import Header from "./componentes/Header/Header";
+import Footer from "./componentes/Footer/Footer";
+import Home from "./page/Home/Home";
+
+
+function App(){
+  
+  function reproduzVideo(){
+    alert("O vídeo está sendo reproduzido")
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <body>
+      <div className="tela-inteira">
+       <Header/>
+
+      <Home reproduz={reproduzVideo}/>
+
+      <Footer/>
+      </div>
+    </body>
   );
 }
 
