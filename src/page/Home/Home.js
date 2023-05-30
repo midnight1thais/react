@@ -13,7 +13,7 @@ function Home(props){
                 <Imagem 
                 titulo={"Video 1"}
                 link={"https://picsum.photos/400/400?a=1"}
-                item={props.reproduz}/>
+                item={props.reproduz} titulo2={"Video 2"} link2={"https://picsum.photos/400/400?a=2"} />
             </section>
         </main>
     )
