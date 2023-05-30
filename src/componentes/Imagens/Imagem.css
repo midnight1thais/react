@@ -2,6 +2,40 @@
     grid-column-start: 1;
     grid-row-start: 1;
 }
+.media2 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.media3 {
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+
+.media4 {
+    grid-column-start: 7;
+    grid-row-start: 1;
+}
+
+.media5 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.media6 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.media7 {
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+.media8 {
+    grid-column-start: 7;
+    grid-row-start: 3;
+}
 
 .box-pagina-principal {
     display: grid;
